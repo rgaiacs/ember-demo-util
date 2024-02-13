@@ -1,6 +1,6 @@
 import { tracked } from '@glimmer/tracking';
 
-export default function Model {
+export default class Model {
   @tracked id = 1;
 
   serialize() {
